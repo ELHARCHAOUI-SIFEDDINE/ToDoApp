@@ -32,7 +32,8 @@ To install the ToDo App locally, follow these steps:
    git clone https://github.com/ELHARCHAOUI-SIFEDDINE/ToDoApp.git
 
 2. Navigate to the project directory:
-   cd ToDoApp   
+   
+   cd path\to\ToDoApp
 
 ## Usage
 
