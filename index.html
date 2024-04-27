@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="flex justify-center items-center h-screen">
+    <!-- App container -->
+    <div class="app-container shadow-lg p-6 h-1/2 w-90 overflow-auto hide-scrollbar">
+        <!-- Header -->
+        <div class="flex items-center mb-4">
+            <h1 class="text-2xl font-semibold font-josefin-sans">To-Do List</h1>
+            <i class="fa-solid fa-clipboard-list text-2xl text-green-500 ml-4 mb-2"></i> <!-- "To Do" Icon -->
+        </div>
+        <!-- Input field and "Add" button -->
+        <div class="flex items-center">
+            <input id="input" type="text" placeholder="add to do task"
+                class="border-b-2 border-gray-400 focus:border-gray-600 outline-none bg-transparent text-gray-700 placeholder-gray-400 focus:placeholder-gray-600 px-4 py-2 mb-4 flex-grow">
+            <button id="add"
+                class="bg-green-500 h-8 w-15 hover:bg-green-700 text-white font-bold pb-3/2 px-4 rounded transition duration-300 ease-in-out ml-7">Add</button>
+        </div>
+        <!-- Task list -->
+        <ul id="list" class="mt-4"></ul>
+        <!-- Error message -->
+        <p class="errormsg text center text-red-500 pl-12 hidden"></p>
+        <!-- Task count -->
+        <p class="count text-center mx-auto"></p>
+    </div>
+    <!-- JavaScript file -->
+    <script src="script.js"></script>
+</body>
+
+</html>

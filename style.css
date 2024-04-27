@@ -1,0 +1,71 @@
+body {
+    background: #abbaab;
+    background: -webkit-linear-gradient(to right, #ffffff, #abbaab);
+    background: linear-gradient(to right, #ffffff, #abbaab);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Custom gradient background for the app container */
+.app-container {
+    background: #FFEEEE;
+    background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE);
+    background: linear-gradient(to right, #DDEFBB, #FFEEEE);
+}
+
+/* Hide scrollbar */
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Adjust icons position */
+.task-icons {
+    margin-left: auto;
+}
+
+.task-icons>span {
+    margin-right: 3mm;
+}
+
+/* Style for completed tasks */
+.completed-task {
+    text-decoration: line-through;
+}
+
+.unchecked-checkbox {
+    color: #f32a2a;
+}
+
+.checked-checkbox {
+    color: #10B981;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+}
+
+.task-text {
+    margin-left: -2mm;
+}
+
+.checkbox-circle {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 6mm;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+#input {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#add {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.checked-text {
+    color: #888;
+    font-style: italic;
+}
