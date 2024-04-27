@@ -48,4 +48,5 @@ Contributions are welcome! Feel free to submit a pull request or open an issue i
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
 Made with ❤️ by EL HARCHAOUI SIF-EDDINE
